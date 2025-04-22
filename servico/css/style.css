@@ -1,0 +1,166 @@
+#page-top {
+    display: flex;
+    position: absolute;
+}
+
+thead {
+    justify-content: space-between;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1e1e2f;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.lbx{
+    text-decoration: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #00c0ff;
+}
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin-top: 7em;
+    padding: 40px;
+
+  }
+
+  .tabprecos {
+    max-width: 900px;
+    margin: auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 3em;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  }
+
+  h1 {
+    text-align: center;
+    color: #1e1e2f;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+  }
+
+  th, td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+
+  th {
+    background-color: #1e1e2f;
+    color: white;
+  }
+
+  label.servico-label {
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #1e1e2f;
+    color: white;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+
+  label.servico-label:hover {
+    background-color: #33334d;
+  }
+
+  input[type="radio"] {
+    display: none;
+  }
+
+  .video-box {
+    display: none;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    border-radius: 10px;
+    border: none;
+  }
+
+  
+  #estatica:checked ~ .videos #video-estatica,
+  #dinamica:checked ~ .videos #video-dinamica,
+  #avancada:checked ~ .videos #video-avancada {
+    display: block;
+  }
+
+.botone{
+    background-color: #1e1e2f;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-left: 44%;
+    margin-top: 5em;
+
+}
+
+    .botone:hover{
+        background-color: #33334d;
+    }
+
+
+footer {
+    background-color: #1e1e2f; 
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: -15em;
+    width: 108.1%;
+    margin-left: -4em;
+    font-size: 0.9rem;
+  }
